@@ -7,8 +7,7 @@
     "build-dev": "webpack",
     "build-prod": "webpack --node-env=production",
     "start": "webpack serve",
-    "clear": "rd /s /q dist",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clear": "rd /s /q dist"
   },
   "keywords": [],
   "author": "",

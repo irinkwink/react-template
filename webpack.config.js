@@ -1,4 +1,5 @@
 const path = require('path');
+const open = require('open');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
@@ -21,7 +22,7 @@ module.exports = {
     port: 3000,
     open: {
       app: {
-        name: 'Google Chrome',
+        name: open.apps.chrome,
       }
     },
     hot: true,
